@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_sg_button_instance">
+    <sys_sg_button_instance action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <button display_value="Location">29293340772521101af702d7aef66000</button>
+        <color_theme>primary</color_theme>
+        <description/>
+        <disable_offline>false</disable_offline>
+        <field_name>location</field_name>
+        <icon/>
+        <label/>
+        <location>field</location>
+        <name/>
+        <order>40</order>
+        <parent>e529ff008b252110a0c5f58c8809d8ff</parent>
+        <parent_table>sys_sg_screen</parent_table>
+        <sys_class_name>sys_sg_button_instance</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-03-08 19:48:26</sys_created_on>
+        <sys_id>2929ff0085252110f4d76589fd8c5dfc</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Apartment Management" source="x_784581_apartme_0">2d293340d3252110f656aa8cf25c9c20</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Apartment Management">2d293340d3252110f656aa8cf25c9c20</sys_scope>
+        <sys_update_name>sys_sg_button_instance_2929ff0085252110f4d76589fd8c5dfc</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-03-08 19:48:26</sys_updated_on>
+        <table>sys_user</table>
+    </sys_sg_button_instance>
+    <sys_translated_text action="delete_multiple" query="documentkey=2929ff0085252110f4d76589fd8c5dfc"/>
+</record_update>

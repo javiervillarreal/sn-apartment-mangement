@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_sg_empty_state">
+    <sys_sg_empty_state action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <description/>
+        <name>Notes Empty State</name>
+        <sys_class_name>sys_sg_empty_state</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-03-08 19:48:18</sys_created_on>
+        <sys_id>2d29ff002c252110eb0e58e1108627fb</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Notes Empty State</sys_name>
+        <sys_package display_value="Apartment Management" source="x_784581_apartme_0">2d293340d3252110f656aa8cf25c9c20</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Apartment Management">2d293340d3252110f656aa8cf25c9c20</sys_scope>
+        <sys_update_name>sys_sg_empty_state_2d29ff002c252110eb0e58e1108627fb</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-03-08 19:48:18</sys_updated_on>
+        <view_config display_value="Empty State Notes">6d29ff00702521100343befe9d4d4afb</view_config>
+    </sys_sg_empty_state>
+    <sys_translated_text action="delete_multiple" query="documentkey=2d29ff002c252110eb0e58e1108627fb"/>
+</record_update>

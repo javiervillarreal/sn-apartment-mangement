@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_ux_screen">
+    <sys_ux_screen action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <app_config display_value="Team Contacts Config">a1293340b025211081a02bcd6b45c320</app_config>
+        <description/>
+        <event_mappings>[ ]</event_mappings>
+        <macroponent display_value="Search">2129ff008d252110fb9c529ed6ad23df</macroponent>
+        <macroponent_config>{
+  "evamDefinitionId" : {
+    "type" : "JSON_LITERAL",
+    "value" : ""
+  },
+  "searchFacets" : {
+    "type" : "JSON_LITERAL",
+    "value" : ""
+  },
+  "filterFacets" : {
+    "type" : "JSON_LITERAL",
+    "value" : ""
+  },
+  "searchContextConfigId" : {
+    "type" : "JSON_LITERAL",
+    "value" : "5f17987d0f302010bd7d8586b9767edb"
+  },
+  "searchTerm" : {
+    "type" : "JSON_LITERAL",
+    "value" : ""
+  },
+  "searchEvamDefinitionId" : {
+    "type" : "JSON_LITERAL",
+    "value" : ""
+  },
+  "label" : {
+    "type" : "TRANSLATION_LITERAL",
+    "value" : {
+      "code" : null,
+      "message" : "",
+      "comment" : ""
+    }
+  },
+  "bare" : {
+    "type" : "JSON_LITERAL",
+    "value" : true
+  },
+  "scrollable" : {
+    "type" : "JSON_LITERAL",
+    "value" : "none"
+  },
+  "headerLevel" : {
+    "type" : "JSON_LITERAL",
+    "value" : "1"
+  },
+  "headingOnlyVisibleToScreenReaders" : {
+    "type" : "JSON_LITERAL",
+    "value" : false
+  },
+  "interceptNotifications" : {
+    "type" : "JSON_LITERAL",
+    "value" : false
+  },
+  "propagateNotifications" : {
+    "type" : "JSON_LITERAL",
+    "value" : false
+  }
+}</macroponent_config>
+        <name>Search default</name>
+        <order>0</order>
+        <parent_macroponent display_value="Portal App Shell">b66bf1075b31101016fd7c1bf481c7a7</parent_macroponent>
+        <required_translations>[ ]</required_translations>
+        <rollback_screen/>
+        <screen_condition/>
+        <screen_type display_value="Search">a129ff000525211081d77ad872451ae0</screen_type>
+        <sys_class_name>sys_ux_screen</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-03-08 19:48:12</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>e529ff00a6252110e3978b5dd41423e6</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Search default</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Apartment Management" source="x_784581_apartme_0">2d293340d3252110f656aa8cf25c9c20</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Apartment Management">2d293340d3252110f656aa8cf25c9c20</sys_scope>
+        <sys_update_name>sys_ux_screen_e529ff00a6252110e3978b5dd41423e6</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-03-08 19:48:12</sys_updated_on>
+    </sys_ux_screen>
+    <sys_translated_text action="delete_multiple" query="documentkey=e529ff00a6252110e3978b5dd41423e6"/>
+</record_update>

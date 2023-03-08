@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_sg_applet_launcher_tab">
+    <sys_sg_applet_launcher_tab action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <applet_launcher display_value="Apartment Management">a129334076252110d348e0dca8631302</applet_launcher>
+        <icon display_value="Group">143d8da2b72200108223e126de11a927</icon>
+        <label>Employees</label>
+        <sys_class_name>sys_sg_applet_launcher_tab</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-03-08 19:48:14</sys_created_on>
+        <sys_id>e9293340702521100b14ca0be3229401</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Employees</sys_name>
+        <sys_package display_value="Apartment Management" source="x_784581_apartme_0">2d293340d3252110f656aa8cf25c9c20</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Apartment Management">2d293340d3252110f656aa8cf25c9c20</sys_scope>
+        <sys_update_name>sys_sg_applet_launcher_tab_e9293340702521100b14ca0be3229401</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-03-08 19:48:14</sys_updated_on>
+    </sys_sg_applet_launcher_tab>
+</record_update>

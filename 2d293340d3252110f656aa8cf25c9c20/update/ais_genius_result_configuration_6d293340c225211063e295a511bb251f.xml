@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="ais_genius_result_configuration">
+    <ais_genius_result_configuration action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <handler_type>search</handler_type>
+        <name>Team Contact  Genius Result</name>
+        <return_fields>name,department,title,location,avatar,mobile_phone,email</return_fields>
+        <script><![CDATA[function process(context) {
+	var answer = new sn_ais.GeniusResultAnswer();
+	answer.setTable('sys_user');
+	answer.setEncodedQuery('active=true');
+	answer.addSearchPhrases([context.getOriginalSearchPhrase()]);
+	answer.setSearchLimit(1);
+	return answer;
+}]]></script>
+        <sys_class_name>ais_genius_result_configuration</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-03-08 19:48:19</sys_created_on>
+        <sys_id>6d293340c225211063e295a511bb251f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Team Contact  Genius Result</sys_name>
+        <sys_package display_value="Apartment Management" source="x_784581_apartme_0">2d293340d3252110f656aa8cf25c9c20</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Apartment Management">2d293340d3252110f656aa8cf25c9c20</sys_scope>
+        <sys_update_name>ais_genius_result_configuration_6d293340c225211063e295a511bb251f</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-03-08 19:48:19</sys_updated_on>
+        <term/>
+        <trigger_condition>always</trigger_condition>
+    </ais_genius_result_configuration>
+</record_update>

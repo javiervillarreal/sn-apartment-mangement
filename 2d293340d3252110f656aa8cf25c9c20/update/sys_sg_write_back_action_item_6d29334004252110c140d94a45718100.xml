@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_sg_write_back_action_item">
+    <sys_sg_write_back_action_item action="INSERT_OR_UPDATE">
+        <description/>
+        <execution_script><![CDATA[(function WriteBackAction(input) {
+	var contactRecord = "";
+	var userGR = new GlideRecord('x_784581_apartme_0_relationship_contact');
+	userGR.addQuery('contact_name', input.sys_id);
+	userGR.query();
+	if (userGR.next()) {
+		contactRecord = userGR.getValue('sys_id');
+		userGR.setValue('favorite', false);
+		userGR.update();
+	}
+	
+	if (!contactRecord) { //if no contact record, create one before first
+		var newRelationshipGR = new GlideRecord('x_784581_apartme_0_relationship_contact');
+		newRelationshipGR.initialize();
+		newRelationshipGR.name = gs.getUserID();
+		newRelationshipGR.contact_name = input.sys_id;
+		newRelationshipGR.favorite = false;
+		contactRecord = newRelationshipGR.insert();
+	}
+ 
+})(input);]]></execution_script>
+        <name>Unfavorite Contact</name>
+        <parameter_screen/>
+        <query_condition/>
+        <sys_class_name>sys_sg_write_back_action_item</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-03-08 19:48:12</sys_created_on>
+        <sys_id>6d29334004252110c140d94a45718100</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Unfavorite Contact</sys_name>
+        <sys_package display_value="Apartment Management" source="x_784581_apartme_0">2d293340d3252110f656aa8cf25c9c20</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Apartment Management">2d293340d3252110f656aa8cf25c9c20</sys_scope>
+        <sys_update_name>sys_sg_write_back_action_item_6d29334004252110c140d94a45718100</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-03-08 19:48:12</sys_updated_on>
+        <table>x_784581_apartme_0_relationship_contact</table>
+        <template/>
+        <type>script</type>
+        <use_current_record_as_condition>true</use_current_record_as_condition>
+        <use_fields_for_ref_lookup>false</use_fields_for_ref_lookup>
+    </sys_sg_write_back_action_item>
+    <sys_translated_text action="delete_multiple" query="documentkey=6d29334004252110c140d94a45718100"/>
+</record_update>

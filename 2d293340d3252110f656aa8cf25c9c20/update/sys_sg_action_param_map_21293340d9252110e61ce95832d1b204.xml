@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_sg_action_param_map">
+    <sys_sg_action_param_map action="INSERT_OR_UPDATE">
+        <button display_value="Edit Note">e529334045252110d580965e70331104</button>
+        <item_parameter display_value="Date">2d2933403125211035da95e5532bce03</item_parameter>
+        <sys_class_name>sys_sg_action_param_map</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-03-08 19:48:08</sys_created_on>
+        <sys_id>21293340d9252110e61ce95832d1b204</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>2d2933403125211035da95e5532bce03</sys_name>
+        <sys_package display_value="Apartment Management" source="x_784581_apartme_0">2d293340d3252110f656aa8cf25c9c20</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Apartment Management">2d293340d3252110f656aa8cf25c9c20</sys_scope>
+        <sys_update_name>sys_sg_action_param_map_21293340d9252110e61ce95832d1b204</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-03-08 19:48:08</sys_updated_on>
+        <ui_parameter display_value="Date">6929334079252110e1e15e85f8f73d03</ui_parameter>
+    </sys_sg_action_param_map>
+</record_update>

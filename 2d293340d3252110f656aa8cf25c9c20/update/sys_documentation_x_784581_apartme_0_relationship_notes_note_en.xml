@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_documentation element="note" label="Notes" language="en" table="x_784581_apartme_0_relationship_notes">
+        <sys_documentation action="INSERT_OR_UPDATE">
+            <element>note</element>
+            <help/>
+            <hint/>
+            <label>Notes</label>
+            <language>en</language>
+            <name>x_784581_apartme_0_relationship_notes</name>
+            <plural>Notes</plural>
+            <sys_class_name>sys_documentation</sys_class_name>
+            <sys_created_by/>
+            <sys_created_on/>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>Notes</sys_name>
+            <sys_package display_value="Apartment Management" source="x_784581_apartme_0">2d293340d3252110f656aa8cf25c9c20</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Apartment Management">2d293340d3252110f656aa8cf25c9c20</sys_scope>
+            <sys_update_name>sys_documentation_x_784581_apartme_0_relationship_notes_note_en</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2023-03-08 19:48:25</sys_updated_on>
+            <url/>
+            <url_target/>
+        </sys_documentation>
+    </sys_documentation>
+</record_update>

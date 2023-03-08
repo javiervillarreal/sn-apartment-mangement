@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_sg_view_config_element">
+    <sys_sg_view_config_element action="INSERT_OR_UPDATE">
+        <name>custom_MCB_view_element</name>
+        <sys_class_name>sys_sg_view_config_element</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-03-08 19:48:23</sys_created_on>
+        <sys_id>6d29ff00ac2521108b292bb50efd22ee</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>custom_MCB_view_element</sys_name>
+        <sys_package display_value="Apartment Management" source="x_784581_apartme_0">2d293340d3252110f656aa8cf25c9c20</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Apartment Management">2d293340d3252110f656aa8cf25c9c20</sys_scope>
+        <sys_update_name>sys_sg_view_config_element_6d29ff00ac2521108b292bb50efd22ee</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-03-08 19:48:23</sys_updated_on>
+        <view_config display_value="My Teammates View Config">ad29ff00ff252110e729f5243d1627fa</view_config>
+        <view_template_slot display_value="cb2f15f0-2377-3627-016e-8bf818f1507a">a129ff007a2521108a4645798acb42f1</view_template_slot>
+    </sys_sg_view_config_element>
+</record_update>

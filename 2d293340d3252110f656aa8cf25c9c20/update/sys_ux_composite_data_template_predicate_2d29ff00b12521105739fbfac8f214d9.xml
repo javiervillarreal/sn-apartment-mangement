@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ux_composite_data_template_predicate">
+    <sys_ux_composite_data_template_predicate action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <condition table="sys_user">active=true^EQ<item endquery="false" field="active" goto="false" newquery="false" operator="=" or="false" value="true"/>
+            <item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/>
+        </condition>
+        <custom_condition/>
+        <custom_field_list/>
+        <field_list>name,email,phone,title,photo</field_list>
+        <name>team-contact-config</name>
+        <order>100</order>
+        <predicate_bundle display_value="team-contact-bundle">6d29ff00c4252110c706f4aa8e635cda</predicate_bundle>
+        <required_roles/>
+        <sys_class_name>sys_ux_composite_data_template_predicate</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-03-08 19:48:24</sys_created_on>
+        <sys_id>2d29ff00b12521105739fbfac8f214d9</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>team-contact-config</sys_name>
+        <sys_package display_value="Apartment Management" source="x_784581_apartme_0">2d293340d3252110f656aa8cf25c9c20</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Apartment Management">2d293340d3252110f656aa8cf25c9c20</sys_scope>
+        <sys_update_name>sys_ux_composite_data_template_predicate_2d29ff00b12521105739fbfac8f214d9</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-03-08 19:48:24</sys_updated_on>
+        <table>sys_user</table>
+        <ux_template display_value="team-contact-template">6529ff0024252110cb434e1867dceada</ux_template>
+    </sys_ux_composite_data_template_predicate>
+</record_update>

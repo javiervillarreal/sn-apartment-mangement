@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_sg_item_stream_m2m_master_item">
+    <sys_sg_item_stream_m2m_master_item action="INSERT_OR_UPDATE">
+        <item_stream display_value="My Direct Reports Item Stream">2929ff008a252110aad6fc4877b74bf7</item_stream>
+        <master_item display_value="My Direct Reports Main Item">a929ff000c25211047be45e26c2fa5f7</master_item>
+        <sys_class_name>sys_sg_item_stream_m2m_master_item</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-03-08 19:48:22</sys_created_on>
+        <sys_id>6929ff0066252110d2487cb8c44034f7</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Apartment Management" source="x_784581_apartme_0">2d293340d3252110f656aa8cf25c9c20</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Apartment Management">2d293340d3252110f656aa8cf25c9c20</sys_scope>
+        <sys_update_name>sys_sg_item_stream_m2m_master_item_6929ff0066252110d2487cb8c44034f7</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-03-08 19:48:22</sys_updated_on>
+    </sys_sg_item_stream_m2m_master_item>
+</record_update>

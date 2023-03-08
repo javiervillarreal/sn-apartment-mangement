@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ux_composite_datasource_filter">
+    <sys_ux_composite_datasource_filter action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <base_condition/>
+        <condition/>
+        <datasource display_value="Team Contact User">e929ff00802521106e3ac23e0b7e75dc</datasource>
+        <datasource_table>sys_user</datasource_table>
+        <filter display_value="SAVED">e129ff00c525211032357c1758bab9dc</filter>
+        <name>Saved Contacts</name>
+        <sys_class_name>sys_ux_composite_datasource_filter</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-03-08 19:48:20</sys_created_on>
+        <sys_id>ad29ff00c92521109a142f8386191bdb</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Saved Contacts</sys_name>
+        <sys_package display_value="Apartment Management" source="x_784581_apartme_0">2d293340d3252110f656aa8cf25c9c20</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Apartment Management">2d293340d3252110f656aa8cf25c9c20</sys_scope>
+        <sys_update_name>sys_ux_composite_datasource_filter_ad29ff00c92521109a142f8386191bdb</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-03-08 19:48:20</sys_updated_on>
+    </sys_ux_composite_datasource_filter>
+</record_update>

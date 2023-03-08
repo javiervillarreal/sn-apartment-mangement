@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ux_composite_datasource">
+    <sys_ux_composite_datasource action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <condition table="sys_user">active=true^sys_id!=javascript:gs.getUserID()^manager.sys_id=javascript:gs.getUser().getManagerID()^manager.sys_idISNOTEMPTY^EQ<item endquery="false" field="active" goto="false" newquery="false" operator="=" or="false" value="true"/>
+            <item endquery="false" field="sys_id" goto="false" newquery="false" operator="!=" or="false" value="javascript:gs.getUserID()"/>
+            <item endquery="false" field="manager.sys_id" goto="false" newquery="false" operator="=" or="false" value="javascript:gs.getUser().getManagerID()"/>
+            <item endquery="false" field="manager.sys_id" goto="false" newquery="false" operator="ISNOTEMPTY" or="false" value=""/>
+            <item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/>
+        </condition>
+        <encoded_query_script/>
+        <name>Team Contact Teammates</name>
+        <sort_by>sys_updated_on</sort_by>
+        <sys_class_name>sys_ux_composite_datasource</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-03-08 19:48:09</sys_created_on>
+        <sys_id>6529ff0019252110329e30666d8543dc</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Team Contact Teammates</sys_name>
+        <sys_package display_value="Apartment Management" source="x_784581_apartme_0">2d293340d3252110f656aa8cf25c9c20</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Apartment Management">2d293340d3252110f656aa8cf25c9c20</sys_scope>
+        <sys_update_name>sys_ux_composite_datasource_6529ff0019252110329e30666d8543dc</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-03-08 19:48:09</sys_updated_on>
+        <table>sys_user</table>
+    </sys_ux_composite_datasource>
+</record_update>

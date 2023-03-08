@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_uib_screen_test_values">
+    <sys_uib_screen_test_values action="INSERT_OR_UPDATE">
+        <macroponent_config>{
+  "evamDefinitionId" : "5949d0fd0f302010bd7d8586b9767ec6",
+  "searchContextConfigId" : "5f17987d0f302010bd7d8586b9767edb",
+  "searchTerm" : "Aileen",
+  "searchEvamDefinitionId" : "5949d0fd0f302010bd7d8586b9767ec6"
+}</macroponent_config>
+        <screen display_value="Search default">e529ff00a6252110e3978b5dd41423e6</screen>
+        <sys_class_name>sys_uib_screen_test_values</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-03-08 19:48:23</sys_created_on>
+        <sys_id>2929ff00c02521104e5994ad8e5499e6</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Apartment Management" source="x_784581_apartme_0">2d293340d3252110f656aa8cf25c9c20</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Apartment Management">2d293340d3252110f656aa8cf25c9c20</sys_scope>
+        <sys_update_name>sys_uib_screen_test_values_2929ff00c02521104e5994ad8e5499e6</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-03-08 19:48:23</sys_updated_on>
+    </sys_uib_screen_test_values>
+</record_update>

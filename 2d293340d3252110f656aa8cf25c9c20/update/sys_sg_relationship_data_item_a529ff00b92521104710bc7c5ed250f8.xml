@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_sg_relationship_data_item">
+    <sys_sg_relationship_data_item action="INSERT_OR_UPDATE">
+        <condition_type>declarative</condition_type>
+        <description/>
+        <group_by/>
+        <instance_relative_url_qc/>
+        <name>Reminders Related DI</name>
+        <offline_query_condition/>
+        <offline_query_condition_script/>
+        <offline_relation_query_condition/>
+        <query_condition table="x_784581_apartme_0_relationship_contact_reminders">^ORDERBYDESCsys_created_on<item endquery="false" field="" goto="false" newquery="false" operator="ORDERBYDESC" or="false" value="sys_created_on"/>
+        </query_condition>
+        <query_condition_script/>
+        <relationship>sn_team_contact_relationship_contact_reminders.contact</relationship>
+        <sys_class_name>sys_sg_relationship_data_item</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-03-08 19:48:22</sys_created_on>
+        <sys_id>a529ff00b92521104710bc7c5ed250f8</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Reminders Related DI</sys_name>
+        <sys_package display_value="Apartment Management" source="x_784581_apartme_0">2d293340d3252110f656aa8cf25c9c20</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Apartment Management">2d293340d3252110f656aa8cf25c9c20</sys_scope>
+        <sys_update_name>sys_sg_relationship_data_item_a529ff00b92521104710bc7c5ed250f8</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-03-08 19:48:22</sys_updated_on>
+        <table>x_784581_apartme_0_relationship_contact_reminders</table>
+        <table_related_to>x_784581_apartme_0_relationship_contact</table_related_to>
+    </sys_sg_relationship_data_item>
+    <sys_translated_text action="delete_multiple" query="documentkey=a529ff00b92521104710bc7c5ed250f8"/>
+</record_update>
